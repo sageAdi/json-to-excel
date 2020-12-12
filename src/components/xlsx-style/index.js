@@ -1,7 +1,7 @@
-import React from "react";
-import * as XLSX from "xlsx";
-import { data, EXCEL_TYPE, EXCEL_EXTENSION } from "../jsonData/data";
+import React from 'react'
+import * as XLSX from 'xlsx-style'
 import { saveAs } from "file-saver";
+import { data } from "../jsonData/data";
 import { fugitiveEmission } from "../jsonData/fugitiveEmission";
 
 function initilisation() {
@@ -67,33 +67,10 @@ function initilisation() {
   );
 }
 
-function editExcel() {
-  const workbook = XLSX.readLine("Fe.xlsx");
-  console.log(workbook.SheetNames);
-}
-function downloadAsExcel() {
-  const worksheet1 = XLSX.utils.json_to_sheet(data);
-  const worksheet2 = XLSX.utils.json_to_sheet(fugitiveEmission);
-  const workbook = {
-    Sheets: {
-      Methodology: worksheet1,
-      FugutiveEmession: worksheet2,
-    },
-    SheetNames: ["Methodology", "FugutiveEmession"],
-  };
-  const BufferData = XLSX.write(workbook, { bookType: "xlsx", type: "array" });
-  saveExcel(BufferData, "Fugutive Emission Report");
-}
-
-function saveExcel(buffer, fileName) {
-  const Data = new Blob([buffer], { type: EXCEL_TYPE });
-  saveAs(Data, fileName + EXCEL_EXTENSION);
-}
-
-export default function Download() {
+export default function XLSX_STYLE() {
   return (
     <div>
       <button onClick={initilisation}>Download</button>
     </div>
-  );
+  )
 }

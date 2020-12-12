@@ -1,4 +1,4 @@
-export const data = [
+export const details = [
   {
     Column1: "1. Find Building Information and populate all deminsions",
   },
