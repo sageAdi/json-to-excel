@@ -1,5 +1,5 @@
 import React from "react";
-import Example from "./components/Example";
+// import Example from "./components/Example";
 import ReactDataExport from "./components/ReactDataExport";
 // import ReactJsonCsv from "./components/ReactJsonCsv";
 // import Download from "./components/DownloadScreen";
@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       {/* <ReactCsv /> */}
-      <Example />
+      {/* <Example /> */}
       <ReactDataExport />
     </div>
   );

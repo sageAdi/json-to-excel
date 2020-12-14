@@ -3,12 +3,18 @@ export const fe = [
     columns: [
       { title: " ", width: { wch: 30 } },
       { title: " ", width: { wch: 30 } },
-      { title: " ", width: { wch: 10 } },
-      { title: " " },
+      { title: " ", width: { wch: 30 } },
+      { title: " ", width: { wch: 30 } },
       { title: " " },
     ],
     data: [
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Spreadsheet : ",
         },
@@ -18,6 +24,12 @@ export const fe = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Document Number : ",
         },
         {
@@ -25,6 +37,12 @@ export const fe = [
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Client : ",
         },
@@ -34,6 +52,12 @@ export const fe = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Project Name : ",
         },
         {
@@ -41,6 +65,12 @@ export const fe = [
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Project Number : ",
         },
@@ -50,6 +80,12 @@ export const fe = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Building : ",
         },
         {
@@ -57,6 +93,12 @@ export const fe = [
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Date : ",
         },
@@ -66,6 +108,12 @@ export const fe = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "P&ID:",
         },
         {
@@ -74,6 +122,12 @@ export const fe = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Building Drawing:",
         },
         {
@@ -81,6 +135,17 @@ export const fe = [
         },
       ],
       [
+        {
+          value: "",
+        },
+      ],
+      [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Spreadsheet Description:",
           style: {
@@ -96,12 +161,17 @@ export const fe = [
       ],
       [
         {
+          value: "",
+        },
+      ],
+      [
+        {
           value: "Rev",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -110,9 +180,9 @@ export const fe = [
           value: "Description",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -121,9 +191,9 @@ export const fe = [
           value: "Date",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -132,9 +202,9 @@ export const fe = [
           value: "By",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -143,9 +213,9 @@ export const fe = [
           value: "Checked",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -154,10 +224,10 @@ export const fe = [
           value: "Approved",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -168,8 +238,8 @@ export const fe = [
           value: "A",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -177,8 +247,8 @@ export const fe = [
           value: "Issued for Review",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -186,8 +256,8 @@ export const fe = [
           value: "2017-09-29",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -195,8 +265,8 @@ export const fe = [
           value: "RWS",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -204,8 +274,8 @@ export const fe = [
           value: "TA",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -213,8 +283,8 @@ export const fe = [
           value: "",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -224,8 +294,8 @@ export const fe = [
           value: "0",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -233,8 +303,8 @@ export const fe = [
           value: "Issued for Implementation",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -242,8 +312,8 @@ export const fe = [
           value: "2019-03-19",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -251,8 +321,8 @@ export const fe = [
           value: "RWS",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -260,8 +330,8 @@ export const fe = [
           value: "TA",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -269,8 +339,8 @@ export const fe = [
           value: "TA",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -285,150 +355,372 @@ export const fe = [
           value: "Building Parameters",
           style: {
             fill: { patternType: "solid", fgColor: { rgb: "5BC0DE" } },
-            font: { bold: true },
+            font: { sz: "14", bold: true },
           },
         },
       ],
       [
         {
           value: "Description",
+          style: { font: { bold: true } },
         },
       ],
       [
         {
           value: "Maximum Ambient Temperature",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "30 C",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "86 F",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "546 R",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Length",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "4.4 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Width",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Cavity Length",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Cavity Width",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Radius of Vessel",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Height to Eave",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "11.6 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Base Area",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "51.04 m^2",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Volume from Eave to Peak",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "21.1816 m^3",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Volume up to Eave",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "155.26368 m^3",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Volume of Vessel",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0 m^3",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Total Volume",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "176.44528 m^3",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Bldg volume that contains equipment",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "20 %",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Building Volume Without Equipment",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "141.156224 cu-m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "4984.8897036928 cu-ft",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Max % of Lower Explosive Limit (LEL)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "25 %",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Contingency Factor (CF)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "15%",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
+        },
+      ],
+      [
+        {
+          value: "",
         },
       ],
       [
@@ -436,110 +728,302 @@ export const fe = [
           value: "Number of Items Per Substance",
           style: {
             fill: { patternType: "solid", fgColor: { rgb: "5BC0DE" } },
-            font: { bold: true },
+            font: { sz: "14", bold: true },
           },
         },
       ],
       [
         {
           value: "Items",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "Acid Gas",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "Condensate",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "Fuel Gas",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "Total",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Connections",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "70",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "14",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "100",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Flanges",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "72",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "28",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Open-Endeds",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "72",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "28",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Valves",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "72",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "28",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Others",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "72",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "28",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+            },
+          },
         },
         {
           value: "101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+            },
+          },
+        },
+      ],
+      [
+        {
+          value: "",
         },
       ],
       [
@@ -547,7 +1031,11 @@ export const fe = [
           value: "Fugitive Emissions Calculation Summary",
           style: {
             fill: { patternType: "solid", fgColor: { rgb: "5BC0DE" } },
-            font: { bold: true },
+            font: { sx: "14", bold: true },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
           },
         },
       ],
@@ -556,48 +1044,98 @@ export const fe = [
           value: "Facility Type",
           style: {
             font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
           },
         },
         {
           value: "Item",
           style: {
             font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
           },
         },
         {
           value: "QTY",
           style: {
             font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
           },
         },
         {
           value: "Prediction Factor (lbs/day)",
           style: {
             font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
           },
         },
         {
           value: "Total Emissions (lbs/day)",
           style: {
             font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
           },
         },
       ],
       [
         {
           value: "Gas",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "Connections",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "70",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0.00866",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -606,15 +1144,40 @@ export const fe = [
         },
         {
           value: "Flanges",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "70",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0.00407",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -623,15 +1186,40 @@ export const fe = [
         },
         {
           value: "Open-endeds",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "70",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0.0638",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -640,15 +1228,40 @@ export const fe = [
         },
         {
           value: "Pumps",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "70",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0.0168",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -657,15 +1270,40 @@ export const fe = [
         },
         {
           value: "Valves",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "70",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0.07",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -674,15 +1312,44 @@ export const fe = [
         },
         {
           value: "Others",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "70",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+            },
+          },
         },
         {
           value: "0.397",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              botom: { style: "medium" },
+            },
+          },
         },
         {
           value: "16",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -697,9 +1364,22 @@ export const fe = [
         },
         {
           value: "Subtotal",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -711,12 +1391,32 @@ export const fe = [
         },
         {
           value: "Total",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
+            },
+          },
         },
         {
           value: "0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "lbs/day",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -731,9 +1431,22 @@ export const fe = [
         },
         {
           value: "0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "lbs/hr",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -745,12 +1458,32 @@ export const fe = [
         },
         {
           value: "Total w/CF =",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "lbs/day",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
@@ -765,9 +1498,29 @@ export const fe = [
         },
         {
           value: "0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
+            },
+          },
         },
         {
           value: "lbs/hr",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+            },
+          },
+        },
+      ],
+      [
+        {
+          value: "",
         },
       ],
       [
@@ -782,364 +1535,1068 @@ export const fe = [
           value: "Sour Gas Dehy. Skid (BU-406)",
           style: {
             fill: { patternType: "solid", fgColor: { rgb: "5BC0DE" } },
+            alignment: { horizontal: "center" },
           },
         },
       ],
       [
         {
           value: "Hydrocarbon",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "C1",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "C2 - C4",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "Field Gas",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "C5 +",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "C6 +",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Average Molecular Weight",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16.04",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "44.1",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "26.12",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "72.15",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "86.18",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Substance",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "Acid Gas",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "Condensate",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "Fuel Gas",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Lower Flammable Limit",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "4%",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1.5%",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "5%",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Molecular Weight (g/mol)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "34.1",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "81.6",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16.04",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Connections",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "70/100",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "14/100",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16/100",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Flanges",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "72/101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "28/101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1/101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Open-Endeds",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "13/17",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "3/17",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1/17",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Pumps",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0/0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0/0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0/0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Valves",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "86/130",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "27/130",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "17/130",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Others",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "22/36",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "12/36",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "2/36",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Hydrocarbon",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "H2S",
-          style: { font: { bold: true } },
+          style: {
+            font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: ">=C5",
-          style: { font: { bold: true } },
+          style: {
+            font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "87% C1",
-          style: { font: { bold: true } },
+          style: {
+            font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Connections",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "70/100",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "14/100",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "16/100",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Flanges",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "72/101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "28/101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1/101",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Open-Endeds",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "13/17",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "3/17",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1/17",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Pumps",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0/0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0/0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0/0",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Valves",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "86/130",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "27/130",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "17/130",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Others",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "22/36",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "12/36",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "2/36",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "% Emissions",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "65.67 %",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "23.73 %",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "10.60 %",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Calculated Hydrocarbon Molecular Weight (g/mol)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "43.46",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Combined LFL of Mixture",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "2.911 %",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Corrected Volume (V)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "398.40243902439",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "ft3/lb-mol",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Total Hydrocarbon Leak Rate (G)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "0.2965",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "cfm",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Fresh Air Introduction Rate (Qr)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "40.743",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "cfm",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Min. Fresh Air Introduction Rate (Q)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "162.974",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "cfm",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Min. Air Change Required for Adequate Ventilation",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "1.96",
           style: {
             font: { sz: "14", bold: true },
             alignment: { horizontal: "right" },
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
           },
         },
         {
           value: "Air Changes Per Hour",
-          style: { font: { sz: "14", bold: true } },
+          style: {
+            font: { sz: "14", bold: true },
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
+        },
+      ],
+      [
+        {
+          value: "",
         },
       ],
       [
@@ -1151,26 +2608,65 @@ export const fe = [
       ],
       [
         {
+          value: "",
+        },
+      ],
+      [
+        {
           value: "References",
-          style: { font: { bold: true } },
+          style: {
+            font: { bold: true },
+          },
         },
       ],
       [
         {
           value: "[1]",
-          style: { alignment: { horizontal: "center" }, font: { bold: true } },
+          style: {
+            alignment: { horizontal: "center" },
+            font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "API RP-505",
+          style: {
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          }
         },
       ],
       [
         {
           value: "[2]",
-          style: { alignment: { horizontal: "center" }, font: { bold: true } },
+          style: {
+            alignment: { horizontal: "center" },
+            font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "API PUBL No. 4615",
+          style: {
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          }
         },
       ],
     ],

@@ -1,10 +1,10 @@
 export const methodology = [
   {
     columns: [
-      { title: " " },
-      { title: " " },
-      { title: " " },
-      { title: " " },
+      { title: " ", width: { wch: 30 } },
+      { title: " ", width: { wch: 30 } },
+      { title: " ", width: { wch: 30 } },
+      { title: " ", width: { wch: 30 } },
       { title: " " },
     ],
     data: [
@@ -61,7 +61,14 @@ export const methodology = [
           style: { font: { color: { rgb: "#5bc0de" } } },
         },
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Where:",
+          style: { alignment: { horizontal: "right" } },
         },
         {
           value: "Vconst = 359 [ft3]",
@@ -75,10 +82,22 @@ export const methodology = [
           value: "",
         },
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Ta = Ambient Building Temperature in Rankine",
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "",
         },
@@ -101,7 +120,14 @@ export const methodology = [
           style: { font: { color: { rgb: "#5bc0de" } } },
         },
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Where:",
+          style: { alignment: { horizontal: "right" } },
         },
         {
           value: "E = Emission Rate [lb/hr]",
@@ -115,10 +141,22 @@ export const methodology = [
           value: "",
         },
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "V = Corrected Volume [ft3/lb-mol]",
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "",
         },
@@ -138,16 +176,29 @@ export const methodology = [
       [
         {
           value: "Qr = G/C",
-          style: { font: { color: { rgb: "#5bc0de" } } },
+          style: { font: { color: { rgb: "#5BC0DE" } } },
+        },
+        {
+          value: "",
+        },
+        {
+          value: "",
         },
         {
           value: "Where:",
+          style: { alignment: { horizontal: "right" } },
         },
         {
           value: "G = Total Hydrocarbon Leak Rate [cfm]",
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "",
         },
@@ -170,13 +221,26 @@ export const methodology = [
           style: { font: { color: { rgb: "#5bc0de" } } },
         },
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Where:",
+          style: { alignment: { horizontal: "right" } },
         },
         {
           value: "Qr = Fresh Air Quality Rate [cfm]",
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "",
         },
@@ -197,6 +261,11 @@ export const methodology = [
         {
           value: "= (Q x 60) /Bldg. Vol.",
           style: { font: { color: { rgb: "#5bc0de" } } },
+        },
+      ],
+      [
+        {
+          yStep: 1,
         },
       ],
       [
@@ -240,7 +309,7 @@ export const methodology = [
         {
           value: "H",
           style: {
-            border: { bottom: { style: "medium", color: "#000" } },
+            border: { bottom: { style: "medium" } },
             alignment: { horizontal: "center" },
           },
         },
@@ -249,7 +318,7 @@ export const methodology = [
         },
         {
           value: "Where:",
-          style: { alignment: { vertical: "center" } },
+          style: { alignment: { horizontal: "right" } },
         },
         {
           value: "h = Neutral Pressure Level above center of lower vent [m]",
@@ -353,13 +422,26 @@ export const methodology = [
           value: "Q = [15940 (Cv)(A) [h (Ti - To) / Ti]1/2 ] x 2",
         },
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Where:",
+          style: { alignment: { horizontal: "right" } },
         },
         {
           value: "15940 = Conversion Factor",
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "",
         },
@@ -383,6 +465,12 @@ export const methodology = [
           value: "",
         },
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "A = Area of the  smallest of the lower and upeer vents [m2]",
         },
       ],
@@ -394,10 +482,22 @@ export const methodology = [
           value: "",
         },
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "h = Neutral Pressure Level [m]",
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "",
         },
@@ -416,10 +516,22 @@ export const methodology = [
           value: "",
         },
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "To = External Building Tempature [K]",
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "",
         },
@@ -443,34 +555,81 @@ export const methodology = [
       ],
       [
         {
+          yStep: 1,
+        },
+      ],
+      [
+        {
           value: "References",
+          style: { font: { sz: "14", bold: true } },
         },
       ],
       [
         {
           value: "[1]",
-          style: { alignment: { horizontal: "right" } },
+          style: {
+            alignment: { horizontal: "center" },
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "API RP-505",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "[2]",
-          style: { alignment: { horizontal: "right" } },
+          style: {
+            alignment: { horizontal: "center" },
+            border: {
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "API RP-500",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "[3]",
-          style: { alignment: { horizontal: "right" } },
+          style: {
+            alignment: { horizontal: "center" },
+            border: {
+              top: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+            },
+          },
         },
         {
           value: "ASHRAE Handbook, Chapter 22",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+            },
+          },
         },
       ],
     ],

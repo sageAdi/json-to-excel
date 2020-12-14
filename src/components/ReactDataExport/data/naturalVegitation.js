@@ -3,12 +3,18 @@ export const naturalVegitation = [
     columns: [
       { title: " ", width: { wch: 30 } },
       { title: " ", width: { wch: 30 } },
-      { title: " ", width: { wch: 10 } },
-      { title: " " },
+      { title: " ", width: { wch: 30 } },
+      { title: " ", width: { wch: 30 } },
       { title: " " },
     ],
     data: [
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Spreadsheet : ",
         },
@@ -18,6 +24,12 @@ export const naturalVegitation = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Document Number : ",
         },
         {
@@ -25,6 +37,12 @@ export const naturalVegitation = [
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Client : ",
         },
@@ -34,6 +52,12 @@ export const naturalVegitation = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Project Name : ",
         },
         {
@@ -41,6 +65,12 @@ export const naturalVegitation = [
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Project Number : ",
         },
@@ -50,6 +80,12 @@ export const naturalVegitation = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Building : ",
         },
         {
@@ -57,6 +93,12 @@ export const naturalVegitation = [
         },
       ],
       [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Date : ",
         },
@@ -66,6 +108,12 @@ export const naturalVegitation = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "P&ID:",
         },
         {
@@ -74,6 +122,12 @@ export const naturalVegitation = [
       ],
       [
         {
+          value: "",
+        },
+        {
+          value: "",
+        },
+        {
           value: "Building Drawing:",
         },
         {
@@ -81,6 +135,17 @@ export const naturalVegitation = [
         },
       ],
       [
+        {
+          value: "",
+        },
+      ],
+      [
+        {
+          value: "",
+        },
+        {
+          value: "",
+        },
         {
           value: "Spreadsheet Description:",
           style: {
@@ -96,12 +161,17 @@ export const naturalVegitation = [
       ],
       [
         {
+          value: "",
+        },
+      ],
+      [
+        {
           value: "Rev",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -110,9 +180,9 @@ export const naturalVegitation = [
           value: "Description",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -121,9 +191,9 @@ export const naturalVegitation = [
           value: "Date",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -132,9 +202,9 @@ export const naturalVegitation = [
           value: "By",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -143,9 +213,9 @@ export const naturalVegitation = [
           value: "Checked",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -154,10 +224,10 @@ export const naturalVegitation = [
           value: "Approved",
           style: {
             border: {
-              top: { style: "medium", color: "#000" },
-              left: { style: "medium", color: "#000" },
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              top: { style: "medium" },
+              left: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
             font: { bold: true },
           },
@@ -168,8 +238,8 @@ export const naturalVegitation = [
           value: "A",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -177,8 +247,8 @@ export const naturalVegitation = [
           value: "Issued for Review",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -186,8 +256,8 @@ export const naturalVegitation = [
           value: "2017-09-29",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -195,8 +265,8 @@ export const naturalVegitation = [
           value: "RWS",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -204,8 +274,8 @@ export const naturalVegitation = [
           value: "TA",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -213,8 +283,8 @@ export const naturalVegitation = [
           value: "",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -224,8 +294,8 @@ export const naturalVegitation = [
           value: "0",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -233,8 +303,8 @@ export const naturalVegitation = [
           value: "Issued for Implementation",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -242,8 +312,8 @@ export const naturalVegitation = [
           value: "2019-03-19",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -251,8 +321,8 @@ export const naturalVegitation = [
           value: "RWS",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -260,8 +330,8 @@ export const naturalVegitation = [
           value: "TA",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
         },
@@ -269,10 +339,15 @@ export const naturalVegitation = [
           value: "TA",
           style: {
             border: {
-              right: { style: "medium", color: "#000" },
-              bottom: { style: "medium", color: "#000" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
             },
           },
+        },
+      ],
+      [
+        {
+          value: "",
         },
       ],
       [
@@ -280,347 +355,1083 @@ export const naturalVegitation = [
           value: "Building Parameters",
           style: {
             fill: { patternType: "solid", fgColor: { rgb: "5BC0DE" } },
-            font: { bold: true },
+            font: { sz: "14", bold: true },
           },
         },
       ],
       [
         {
           value: "Description",
-          style: { font: { bold: false } },
+          style: { font: { bold: true } },
         },
       ],
       [
         {
           value: "Outdoor Air Temperature",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "20",
+          value: 20,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "C",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "68",
+          value: 68,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "F",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "293.15",
+          value: 293.15,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "K",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Indoor Air Temperature",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "20",
+          value: 20,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "C",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "68",
+          value: 68,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "F",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "293.15",
+          value: 293.15,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "K",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Length",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 11.6,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 38.0596,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "ft",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Width",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 11.6,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 38.0596,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "ft",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Eave Height",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 11.6,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 38.0596,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "ft",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Eave to Peak Height",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 11.6,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 38.0596,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "ft",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Volume",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 11.6,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "cu-m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 38.0596,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "cu-ft",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value:
             "Vertical Distance Between Upper and Lower Vent Openings(center-to-center)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 11.6,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: 38.0596,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "ft",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Vent Openings",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "Length OR # Circular",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "Width OR Diameter",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "Area",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Lower Rectangular Vents",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "0.406 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "1.332086 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "Area",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Circular Vents",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "0.406 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "1.332086 m",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "Area",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Lower",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "4",
+          value: 4,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Upper Rectangular",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "2",
+          value: 2,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Open Area",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "A1",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "0.164836",
+          value: 0.164836,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "A2",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "0.18",
+          value: 0.18,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "% Open",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Lower Vents",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "25%",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Upper Vents",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "100%",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Effectiveness of Openings",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "100%",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
+        },
+      ],
+      [
+        {
+          value: "",
         },
       ],
       [
         {
           value: "Stack Effect Calculation",
+          style: {
+            fill: { patternType: "solid", fgColor: { rgb: "5BC0DE" } },
+            font: { sz: "14", bold: true },
+          },
         },
       ],
       [
         {
           value: "Description",
+          style: {
+            font: { bold: true },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "Lower/Upper (A1/A2)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "Upper/Lower (A2/A1)",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Vent Opening Ratios",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "0.915755555555556",
+          value: 0.915755555555556,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "1.09199446722803",
+          value: 1.09199446722803,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Neutral Pressure Level",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "1.45760422501925",
+          value: 1.45760422501925,
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Natural Ventilation Due to Stack",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "Both openings as smallest",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "2.22825095546979",
+          value: 2.22825095546979,
+          style: {
+            font: {
+              sz: "14",
+              bold: true,
+            },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "Air Changes Per Hour",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
       [
         {
           value: "One opening larger than the other",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
-          value: "2.40985340834058",
+          value: 2.40985340834058,
+          style: {
+            font: {
+              sz: "14",
+              bold: true,
+            },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "Air Changes Per Hour",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
+        },
+      ],
+      [
+        {
+          value: "",
         },
       ],
       [
         {
           value: "References",
+          style: { font: { sz: "14", bold: true } },
         },
       ],
       [
         {
           value: "[1]",
-          style: { alignment: { horizontal: "right" } },
+          style: {
+            alignment: { horizontal: "center" },
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
         {
           value: "API RP-505",
+          style: {
+            border: {
+              top: { style: "medium" },
+              right: { style: "medium" },
+              bottom: { style: "medium" },
+              left: { style: "medium" },
+            },
+          },
         },
       ],
     ],
