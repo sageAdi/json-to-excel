@@ -73,7 +73,7 @@ const handleAggregateTtemsForSubstance = () => {
 
     for (const key in fe_report.aggregated_items_for_substance) {
       if (key !== "pnId") {
-        dynamicHeaderTitle[`col_${count}`] = key;
+        dynamicHeaderTitle[`col_${count}`] = key.replace("_", " ");
         dynamicConnection[`col_${count}`] =
           fe_report.aggregated_items_for_substance[key].connections;
         dynamicFlanges[`col_${count}`] =
@@ -106,7 +106,7 @@ const handleAggregateTtemsForSubstance = () => {
     fe_report.items_per_substance.map((value) => {
       for (const key in value) {
         if (key !== "pnId") {
-          dynamicHeaderTitle[`col_${count}`] = key;
+          dynamicHeaderTitle[`col_${count}`] = key.replace("_", " ");
           dynamicConnection[`col_${count}`] = value[key].connections;
           dynamicFlanges[`col_${count}`] = value[key].flanges;
           dynamicOpenEndeds[`col_${count}`] = value[key]["open-endeds"];
@@ -490,7 +490,6 @@ const handleFugitiveEmissionSummary = () => {
   total_per_hrs[`col_${count}`] = "=";
   total_wCF_per_day[`col_${count}`] = "Total w/CF =";
   total_wCF_per_hrs[`col_${count++}`] = "=";
-  
 
   fugitiveEmissionSummaryTitle[`col_${count}`] = "";
   fugitiveEmissionSummaryHeader[`col_${count}`] = "Prediction Factor (lbs/day)";
@@ -604,7 +603,7 @@ const handleAdequateVentilationRateCalculation = () => {
   count = 5;
   fe_report.adequate_ventilation_rate__calculations.values_of_substances.map(
     (value) => {
-      substance[`col_${count}`] = value.substance;
+      substance[`col_${count}`] = value.substance.replace("_"," ");
       lowerFlamableLimit[`col_${count}`] = value["Lower Flammable Limit %"];
       mWt[`col_${count++}`] = value["Molecular Weight (g/mol)"];
       substance[`col_${count}`] = "";

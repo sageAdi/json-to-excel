@@ -273,9 +273,10 @@ exports.methodologyData = [
   {
     col_1: "h=",
     col_2: "H",
-    col_3: "(Assume Ti > To)",
-    col_4: "Where:",
-    col_5: "h = Neutral Pressure Level above center of lower vent [m]",
+    col_3: "",
+    col_4: "(Assume Ti > To)",
+    col_5: "Where:",
+    col_6: "h = Neutral Pressure Level above center of lower vent [m]",
   },
   {
     col_1: "",
