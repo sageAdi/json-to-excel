@@ -1,0 +1,858 @@
+{
+  "fe_report": {
+    "title": "Fugitive Emissions Study",
+    "building_name": "Ranger station",
+    "building_id": "d0a7db0b-8c56-42fd-8b7e-b5694499d29e",
+    "building_drawing": "TODO - get S3 Link",
+    "client_name": "Client Name",
+    "client_id": "Client Id",
+    "project_name": "Project Name",
+    "project_id": "Project Id",
+    "project_number": "Project Number",
+    "date_of_report_generation": "2020-11-25",
+    "spreadsheet_description": "Calculates the amount (lbs) of flammable gas and vapour emitted during normal operation of an oil and gas facility building. Utilized to determine area classification.",
+    "revisions": [
+      {
+        "name": "A",
+        "description": "Issued for review",
+        "date": "29-Sep-17",
+        "generated_by": "RWS",
+        "checked_by": "TA",
+        "approved_by": ""
+      },
+      {
+        "name": "B",
+        "description": "Issued for review",
+        "date": "8-March-21",
+        "generated_by": "RWS",
+        "checked_by": "TA",
+        "approved_by": ""
+      },
+      {
+        "name": "C",
+        "description": "Issued for review",
+        "date": "29-Sep-17",
+        "generated_by": "RWS",
+        "checked_by": "TA",
+        "approved_by": ""
+      }
+    ],
+    "items_per_substance": [
+      {
+        "pnId": "1211104-M-PID-01-002_4400x6800.jpg",
+        "Diluent": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Fuel_gas": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Hydrocarbon_Liquid": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Hydrocarbon_Vapour": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Hot_Oil": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Instrumentgas": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Uquifiedpetroleum_Gas": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Produced_Emulsion": {
+          "connections": "86",
+          "flanges": "71",
+          "open-endeds": "45",
+          "pumps": "0",
+          "valves": "96",
+          "others": "17"
+        },
+        "Produced_gas": {
+          "connections": "7",
+          "flanges": "14",
+          "open-endeds": "4",
+          "pumps": "0",
+          "valves": "10",
+          "others": "1"
+        },
+        "Sales_Gas": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Slop_Oil": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Sales_Oil": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Acid_Gas": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Highpressure_Flare": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Low_Pressure_Flare": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Methanol": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        }
+      },
+      {
+        "pnId": "1211104-M-PID-01-031.jpg",
+        "Diluent": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Fuel_gas": {
+          "connections": "18",
+          "flanges": "11",
+          "open-endeds": "8",
+          "pumps": "0",
+          "valves": "18",
+          "others": "1"
+        },
+        "Hydrocarbon_Liquid": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Hydrocarbon_Vapour": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Hot_Oil": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Instrumentgas": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Uquifiedpetroleum_Gas": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Produced_Emulsion": {
+          "connections": "20",
+          "flanges": "27",
+          "open-endeds": "17",
+          "pumps": "0",
+          "valves": "29",
+          "others": "0"
+        },
+        "Produced_gas": {
+          "connections": "8",
+          "flanges": "13",
+          "open-endeds": "8",
+          "pumps": "0",
+          "valves": "13",
+          "others": "0"
+        },
+        "Sales_Gas": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Slop_Oil": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Sales_Oil": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Acid_Gas": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Highpressure_Flare": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Low_Pressure_Flare": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        },
+        "Methanol": {
+          "connections": "0",
+          "flanges": "0",
+          "open-endeds": "0",
+          "pumps": "0",
+          "valves": "0",
+          "others": "0"
+        }
+      }
+    ],
+    "building_parameters": {
+      "building_id": "d0a7db0b-8c56-42fd-8b7e-b5694499d29e",
+      "name": "Ranger station",
+      "plant_name": "Orchid",
+      "plant_id": "09c35a1f-a1a9-4e99-ad4c-bb99bcdbd052",
+      "facility_type": "Light Crude",
+      "Maximum Ambient Temperature": {
+        "C": 25,
+        "F": 77,
+        "R": 536.6700000000001
+      },
+      "Length(m)": 10,
+      "Width(m)": 10,
+      "Cavity Length(m)": 4,
+      "Cavity Width(m)": 4,
+      "Length of Vessel(m)": 5,
+      "Radius of Vessel(m)": 5,
+      "Height to Eave(m)": 15,
+      "Height from Eave to Peak(m)": 20,
+      "Base Area(m2)": 84,
+      "Volume from Eave to Peak(m3)": 840,
+      "Volume up to Eave(m3)": 1260,
+      "Volume of Vessel(m3)": 78.53981633974483,
+      "Total Volume(m3)": 2021.460183660255,
+      "Bldg volume that contains equipment(%)": "25",
+      "Building Volume Without Equipment(cu-m)": 1516.0951377451916,
+      "Building Volume Without Equipment(cu-ft)": 53540.899789471434,
+      "Max % of Lower Explosive Limit (LEL)": "18",
+      "Contingency Factor (CF) %": "25",
+      "pnids": [
+        "1211104-M-PID-01-002_4400x6800.jpg",
+        "1211104-M-PID-01-031.jpg"
+      ],
+      "pnId_s3_paths": [
+        "s3://artisanbucketoregon154814-dev/public/09c35a1f-a1a9-4e99-ad4c-bb99bcdbd052/PNID/6fb20fc-fa4-c6a4-0e5-a434ae4b171",
+        "s3://artisanbucketoregon154814-dev/public/09c35a1f-a1a9-4e99-ad4c-bb99bcdbd052/PNID/77300c-73c-714-fcae-1f87d754eb5"
+      ]
+    },
+    "aggregated_items_for_substance": {
+      "pnId": "ALL",
+      "Diluent": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Fuel_gas": {
+        "connections": 18,
+        "flanges": 11,
+        "open-endeds": 8,
+        "pumps": 0,
+        "valves": 18,
+        "others": 1
+      },
+      "Hydrocarbon_Liquid": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Hydrocarbon_Vapour": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Hot_Oil": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Instrumentgas": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Uquifiedpetroleum_Gas": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Produced_Emulsion": {
+        "connections": 106,
+        "flanges": 98,
+        "open-endeds": 62,
+        "pumps": 0,
+        "valves": 125,
+        "others": 17
+      },
+      "Produced_gas": {
+        "connections": 15,
+        "flanges": 27,
+        "open-endeds": 12,
+        "pumps": 0,
+        "valves": 23,
+        "others": 1
+      },
+      "Sales_Gas": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Slop_Oil": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Sales_Oil": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Acid_Gas": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Highpressure_Flare": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Low_Pressure_Flare": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Methanol": {
+        "connections": 0,
+        "flanges": 0,
+        "open-endeds": 0,
+        "pumps": 0,
+        "valves": 0,
+        "others": 0
+      },
+      "Totals": {
+        "connections": 139,
+        "flanges": 136,
+        "open-endeds": 82,
+        "pumps": 0,
+        "valves": 166,
+        "others": 19
+      }
+    },
+    "caliculation_summary": {
+      "facility_type": "Light Crude",
+      "eq_items": [
+        {
+          "name": "connections",
+          "quantity": 139,
+          "Prediction Factor (lbs/day)": 0.00866,
+          "Total Emissions (lbs/day)": 1.2037399999999998
+        },
+        {
+          "name": "flanges",
+          "quantity": 136,
+          "Prediction Factor (lbs/day)": 0.00407,
+          "Total Emissions (lbs/day)": 0.55352
+        },
+        {
+          "name": "open-endeds",
+          "quantity": 82,
+          "Prediction Factor (lbs/day)": 0.0638,
+          "Total Emissions (lbs/day)": 5.231599999999999
+        },
+        {
+          "name": "pumps",
+          "quantity": 0,
+          "Prediction Factor (lbs/day)": 0.0168,
+          "Total Emissions (lbs/day)": 0
+        },
+        {
+          "name": "valves",
+          "quantity": 166,
+          "Prediction Factor (lbs/day)": 0.07,
+          "Total Emissions (lbs/day)": 11.620000000000001
+        },
+        {
+          "name": "others",
+          "quantity": 19,
+          "Prediction Factor (lbs/day)": 0.397,
+          "Total Emissions (lbs/day)": 7.543
+        }
+      ],
+      "sub_total (lbs/day)": 26.15186,
+      "sub_total (lbs/hr)": 1.0896608333333333,
+      "sub_total w/CF (lbs/day)": 30.859194799999997,
+      "sub_total w/CF (lbs/hr)": 1.2857997833333332
+    },
+    "adequate_ventilation_rate__calculations": {
+      "hydro_carbons": [
+        {
+          "Hydrocarbon": "C1",
+          "Average Molecular Weight": "16.04"
+        },
+        {
+          "Hydrocarbon": "C2 - C4",
+          "Average Molecular Weight": "44.1"
+        },
+        {
+          "Hydrocarbon": "Field Gas",
+          "Average Molecular Weight": "26.12"
+        },
+        {
+          "Hydrocarbon": "C5 +",
+          "Average Molecular Weight": "72.15"
+        },
+        {
+          "Hydrocarbon": "C6 +",
+          "Average Molecular Weight": "86.18"
+        }
+      ],
+      "values_of_substances": [
+        {
+          "substance": "acid_gas",
+          "Lower Flammable Limit %": "4.0",
+          "Molecular Weight (g/mol)": "34.1"
+        },
+        {
+          "substance": "condensate",
+          "Lower Flammable Limit %": "1.5",
+          "Molecular Weight (g/mol)": "81.6"
+        },
+        {
+          "substance": "fuel_gas",
+          "Lower Flammable Limit %": "5.0",
+          "Molecular Weight (g/mol)": "16.04"
+        }
+      ],
+      "table_of_factions": {
+        "Diluent": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Fuel_gas": {
+          "connections": "18/139",
+          "flanges": "11/136",
+          "open-endeds": "8/82",
+          "pumps": "0/0",
+          "valves": "18/166",
+          "others": "1/19"
+        },
+        "Hydrocarbon_Liquid": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Hydrocarbon_Vapour": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Hot_Oil": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Instrumentgas": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Uquifiedpetroleum_Gas": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Produced_Emulsion": {
+          "connections": "106/139",
+          "flanges": "98/136",
+          "open-endeds": "62/82",
+          "pumps": "0/0",
+          "valves": "125/166",
+          "others": "17/19"
+        },
+        "Produced_gas": {
+          "connections": "15/139",
+          "flanges": "27/136",
+          "open-endeds": "12/82",
+          "pumps": "0/0",
+          "valves": "23/166",
+          "others": "1/19"
+        },
+        "Sales_Gas": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Slop_Oil": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Sales_Oil": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Acid_Gas": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Highpressure_Flare": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Low_Pressure_Flare": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        },
+        "Methanol": {
+          "connections": "0/139",
+          "flanges": "0/136",
+          "open-endeds": "0/82",
+          "pumps": "0/0",
+          "valves": "0/166",
+          "others": "0/19"
+        }
+      },
+      "table_of_decimals": {
+        "Diluent": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Fuel_gas": {
+          "connections": 0.129496,
+          "flanges": 0.080882,
+          "open-endeds": 0.097561,
+          "pumps": "0",
+          "valves": 0.108434,
+          "others": 0.052632
+        },
+        "Hydrocarbon_Liquid": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Hydrocarbon_Vapour": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Hot_Oil": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Instrumentgas": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Uquifiedpetroleum_Gas": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Produced_Emulsion": {
+          "connections": 0.76259,
+          "flanges": 0.720588,
+          "open-endeds": 0.756098,
+          "pumps": "0",
+          "valves": 0.753012,
+          "others": 0.894737
+        },
+        "Produced_gas": {
+          "connections": 0.107914,
+          "flanges": 0.198529,
+          "open-endeds": 0.146341,
+          "pumps": "0",
+          "valves": 0.138554,
+          "others": 0.052632
+        },
+        "Sales_Gas": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Slop_Oil": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Sales_Oil": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Acid_Gas": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Highpressure_Flare": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Low_Pressure_Flare": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        },
+        "Methanol": {
+          "connections": 0,
+          "flanges": 0,
+          "open-endeds": 0,
+          "pumps": "0",
+          "valves": 0,
+          "others": 0
+        }
+      },
+      "emission_percentages": {
+        "Diluent": 0,
+        "Fuel_gas": 0.090550182789293,
+        "Hydrocarbon_Liquid": 0,
+        "Hydrocarbon_Vapour": 0,
+        "Hot_Oil": 0,
+        "Instrumentgas": 0,
+        "Uquifiedpetroleum_Gas": 0,
+        "Produced_Emulsion": 0.7942617803919111,
+        "Produced_gas": 0.11518830408391602,
+        "Sales_Gas": 0,
+        "Slop_Oil": 0,
+        "Sales_Oil": 0,
+        "Acid_Gas": 0,
+        "Highpressure_Flare": 0,
+        "Low_Pressure_Flare": 0,
+        "Methanol": 0
+      },
+      "Calculated Hydrocarbon Molecular Weight (g/mol)": 1.0000002672651203,
+      "Combined LFL of Mixture %": 0.9999997327349511,
+      "Corrected Volume (V)": 391.5945731707318,
+      "Corrected Volume (V) Measurement Units": "ft3/lb-mol",
+      "Total Hydrocarbon Leak Rate (G)": 8.391868046103644,
+      "Total Hydrocarbon Leak Rate (G) Measurement Units": "cfm",
+      "Fresh Air Introduction Rate (Qr)": 46.62150160531815,
+      "Fresh Air Introduction Rate (Qr) Measurement Units": "cfm",
+      "Min. Fresh Air Introduction Rate (Q)": 186.4860064212726,
+      "Min. Fresh Air Introduction Rate (Q) Measurement Units": "cfm",
+      "Min. Air Change Required for Adequate Ventilation": 0.2089834206984443,
+      "Min. Air Change Required for Adequate Ventilation Measurement Units": "cfm"
+    }
+  }
+}
